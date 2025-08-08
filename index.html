@@ -2,29 +2,22 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
+		<link rel="icon" type="image/svg+xml" href="./favicon.svg" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta name="theme-color" content="#3B82F6" />
-		<meta
-			name="description"
-			content="Plan your weekly dinners with ease!"
-		/>
-		<link rel="manifest" href="manifest.json" />
-		<link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+		<meta name="description" content="Plan your weekly dinners with ease" />
+		<link rel="manifest" href="./manifest.json" />
 		<title>Weekly Food Planner</title>
-		<script
-			type="module"
-			crossorigin
-			src="assets/index-Dxda77dh.js"
-		></script>
-		<link rel="stylesheet" crossorigin href="assets/index-Dqeq_dmm.css" />
-	</head>
+		<script type="module" crossorigin src="./assets/index-CMuT_zjV.js"></script>
+		<link rel="stylesheet" crossorigin href="./assets/index-Dqeq_dmm.css">
+	<link rel="manifest" href="./manifest.webmanifest"><script id="vite-plugin-pwa:register-sw" src="./registerSW.js"></script></head>
 	<body>
 		<div id="root"></div>
 		<script>
 			if ("serviceWorker" in navigator) {
 				window.addEventListener("load", () => {
 					navigator.serviceWorker
-						.register("sw.js")
+						.register("/sw.js")
 						.then((registration) => {
 							console.log("SW registered: ", registration);
 						})
