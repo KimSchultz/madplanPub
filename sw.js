@@ -11,7 +11,7 @@ self.addEventListener('install', (event) => {
     caches.open(CACHE_NAME)
       .then((cache) => cache.addAll(urlsToCache))
   );
-});
+}); 
 
 self.addEventListener('fetch', (event) => {
   event.respondWith(
