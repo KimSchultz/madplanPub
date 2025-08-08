@@ -1,7 +1,7 @@
 {
   "name": "Weekly Food Planner",
   "short_name": "Food Planner",
-  "description": "Plan your weekly dinners with ease",
+  "description": "Plan your weekly dinners with ease!",
   "start_url": "/",
   "display": "standalone",
   "theme_color": "#3B82F6",
