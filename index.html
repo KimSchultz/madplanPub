@@ -8,14 +8,14 @@
 			name="description"
 			content="Plan your weekly dinners with ease!"
 		/>
-		<link rel="manifest" href="/manifest.json" />
+		<link rel="manifest" href="manifest.json" />
 		<title>Weekly Food Planner</title>
 		<script
 			type="module"
 			crossorigin
-			src="/assets/index-Dxda77dh.js"
+			src="assets/index-Dxda77dh.js"
 		></script>
-		<link rel="stylesheet" crossorigin href="/assets/index-Dqeq_dmm.css" />
+		<link rel="stylesheet" crossorigin href="assets/index-Dqeq_dmm.css" />
 	</head>
 	<body>
 		<div id="root"></div>
@@ -23,7 +23,7 @@
 			if ("serviceWorker" in navigator) {
 				window.addEventListener("load", () => {
 					navigator.serviceWorker
-						.register("/sw.js")
+						.register("sw.js")
 						.then((registration) => {
 							console.log("SW registered: ", registration);
 						})
