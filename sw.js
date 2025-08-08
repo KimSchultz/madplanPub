@@ -1,6 +1,5 @@
 const CACHE_NAME = "food-planner-v1";
 const urlsToCache = [
-	"/",
 	"index.html",
 	"manifest.json",
 	"assets/index-Dqeq_dmm.css",
