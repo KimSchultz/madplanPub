@@ -1,5 +1,11 @@
 const CACHE_NAME = "food-planner-v1";
-const urlsToCache = ["/", "/src/main.tsx", "/src/App.tsx", "/src/index.css"];
+const urlsToCache = [
+	"/",
+	"index.html",
+	"manifest.json",
+	"assets/index-Dqeq_dmm.css",
+	"assets/index-Dxda77dh.js",
+];
 
 self.addEventListener("install", (event) => {
 	event.waitUntil(
